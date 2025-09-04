@@ -42,35 +42,42 @@ class Atleta {
     }
 
     obtemNomeAtleta() {
+        return this.nome;
 
     }
 
     obtemIdadeAtleta() {
+        return this.idade;
 
     }
 
     obtemPesoAtleta() {
+        return this.peso;
 
     }
 
     obtemAlturaAtleta() {
+        return this.altura;
 
     }
 
     obtemNotasAtleta() {
+        return this.notas.join(", ");
 
     }
 
     obtemCategoria() {
+        return this.calculaCategoria();
 
     }
 
     obtemIMC() {
+        return this.calculaIMC();
 
     }
 
     obtemMediaValida() {
-
+        return this.calculaMediaValida();
     }
 
 }
